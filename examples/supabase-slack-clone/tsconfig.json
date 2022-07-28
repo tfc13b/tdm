@@ -10,5 +10,6 @@
       "experimentalDecorators": true,
       "emitDecoratorMetadata": true,
       "declaration": true
+      "moduleResolution": "node",
   }
 }
