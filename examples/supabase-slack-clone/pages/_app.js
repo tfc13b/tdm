@@ -1,8 +1,8 @@
 import '/styles/style.scss'
 import React, { useState, useEffect } from 'react'
 import Router from 'next/router'
-import UserContext from 'lib/UserContext'
-import { supabase, fetchUserRoles } from 'lib/Store'
+import UserContext from '/lib/UserContext'
+import { supabase, fetchUserRoles } from '/lib/Store'
 
 export default function SupabaseSlackClone({ Component, pageProps }) {
   const [userLoaded, setUserLoaded] = useState(false)
