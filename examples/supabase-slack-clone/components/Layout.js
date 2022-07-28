@@ -87,3 +87,5 @@ const SidebarItem = ({ channel, isActiveChannel, user, userRoles }) => (
     </li>
   </>
 )
+
+
